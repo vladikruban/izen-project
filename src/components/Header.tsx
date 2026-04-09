@@ -28,7 +28,7 @@ export default function Header() {
     { name: "О КОМПАНИИ", href: "/#about" },
     { name: "ПРОДУКЦИЯ", href: "/products" },
     { name: "МАТЕРИАЛЫ", href: "/#resources" }, 
-    { name: "КОНТАКТЫ", href: "/#contacts" },
+    { name: "КОНТАКТЫ", href: "#contacts" },
     { name: "3D ВИЗУАЛИЗАЦИЯ", href: "https://www.izenimplant.com/visual3d/" },
   ];
 
