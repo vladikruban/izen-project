@@ -5,6 +5,8 @@ meta:
     version: 20
 build:
   command: npm install && npm run build
+  artifacts:
+    - .next
 run:
   command: npm start
   containerPort: 3000
