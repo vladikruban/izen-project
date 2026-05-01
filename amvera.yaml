@@ -3,6 +3,11 @@ meta:
   toolchain:
     name: npm
     version: 20
+build:
+  skip: false
+  additionalCommands: npm install && npm run build
+  artifacts:
+    ".next": ".next"
 run:
-  command: npm run build && npm start
+  command: npm start
   containerPort: 3000
