@@ -4,7 +4,10 @@ meta:
     name: npm
     version: 20
 build:
-  install: npm install
-  command: npm run build
+  steps:
+    - name: install
+      command: npm install
+    - name: build
+      command: npm run build
 run:
   command: npm start
