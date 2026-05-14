@@ -1,13 +1,2 @@
 meta:
-  environment: node
-  toolchain:
-    name: npm
-    version: 20
-build:
-  skip: false
-  additionalCommands: npm install && npm run build
-  artifacts:
-    ".next": ".next"
-run:
-  command: npm start
-  containerPort: 3000
+  environment: docker
