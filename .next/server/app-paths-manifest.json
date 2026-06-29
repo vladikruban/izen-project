@@ -1,5 +1,18 @@
 {
-  "/page": "app/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/about/business/page": "app/about/business/page.js",
-  "/news/mou-signing/page": "app/news/mou-signing/page.js"
+  "/about/intro/page": "app/about/intro/page.js",
+  "/about/manufacturing/page": "app/about/manufacturing/page.js",
+  "/catalog/[slug]/page": "app/catalog/[slug]/page.js",
+  "/comparison/page": "app/comparison/page.js",
+  "/kits/orthopedic/page": "app/kits/orthopedic/page.js",
+  "/kits/surgical/page": "app/kits/surgical/page.js",
+  "/news/apac-roadshow/page": "app/news/apac-roadshow/page.js",
+  "/news/masterclass/page": "app/news/masterclass/page.js",
+  "/news/mou-signing/page": "app/news/mou-signing/page.js",
+  "/page": "app/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/products/compatibility/page": "app/products/compatibility/page.js",
+  "/products/page": "app/products/page.js"
 }

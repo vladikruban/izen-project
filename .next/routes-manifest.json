@@ -1,0 +1,143 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/catalog/[slug]",
+      "regex": "^/catalog/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/catalog/(?<nxtPslug>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about/business",
+      "regex": "^/about/business(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about/business(?:/)?$"
+    },
+    {
+      "page": "/about/intro",
+      "regex": "^/about/intro(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about/intro(?:/)?$"
+    },
+    {
+      "page": "/about/manufacturing",
+      "regex": "^/about/manufacturing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about/manufacturing(?:/)?$"
+    },
+    {
+      "page": "/comparison",
+      "regex": "^/comparison(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/comparison(?:/)?$"
+    },
+    {
+      "page": "/kits/orthopedic",
+      "regex": "^/kits/orthopedic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kits/orthopedic(?:/)?$"
+    },
+    {
+      "page": "/kits/surgical",
+      "regex": "^/kits/surgical(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kits/surgical(?:/)?$"
+    },
+    {
+      "page": "/news/apac-roadshow",
+      "regex": "^/news/apac\\-roadshow(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/news/apac\\-roadshow(?:/)?$"
+    },
+    {
+      "page": "/news/masterclass",
+      "regex": "^/news/masterclass(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/news/masterclass(?:/)?$"
+    },
+    {
+      "page": "/news/mou-signing",
+      "regex": "^/news/mou\\-signing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/news/mou\\-signing(?:/)?$"
+    },
+    {
+      "page": "/privacy",
+      "regex": "^/privacy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy(?:/)?$"
+    },
+    {
+      "page": "/products",
+      "regex": "^/products(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products(?:/)?$"
+    },
+    {
+      "page": "/products/compatibility",
+      "regex": "^/products/compatibility(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/compatibility(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

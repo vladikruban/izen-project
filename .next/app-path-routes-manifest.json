@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/business/page": "/about/business",
+  "/about/intro/page": "/about/intro",
+  "/about/manufacturing/page": "/about/manufacturing",
+  "/catalog/[slug]/page": "/catalog/[slug]",
+  "/comparison/page": "/comparison",
+  "/kits/orthopedic/page": "/kits/orthopedic",
+  "/kits/surgical/page": "/kits/surgical",
+  "/news/apac-roadshow/page": "/news/apac-roadshow",
+  "/news/masterclass/page": "/news/masterclass",
+  "/news/mou-signing/page": "/news/mou-signing",
+  "/page": "/",
+  "/privacy/page": "/privacy",
+  "/products/compatibility/page": "/products/compatibility",
+  "/products/page": "/products"
+}

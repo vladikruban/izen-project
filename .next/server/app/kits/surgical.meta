@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/kits/layout,_N_T_/kits/surgical/layout,_N_T_/kits/surgical/page,_N_T_/kits/surgical"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/kits/surgical/__PAGE__",
+    "/kits/surgical",
+    "/kits",
+    "/_index",
+    "/_head"
+  ]
+}
