@@ -123,3 +123,13 @@ export default async function CatalogViewer({ params }: Props) {
     </main>
   );
 }
+
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  return [
+    { slug: 't-system' },
+    { slug: 'r-system' },
+    { slug: 'i-system' },
+  ];
+}
